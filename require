@@ -1,0 +1,20 @@
+>>pip3 install boto3
+>>pip3 install awscli
+
+**The AWS Command Line Interface (AWS CLI) is an Amazon Web Services tool that enables developers to control Amazon public cloud services by typing commands on a specified line
+
+**Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python, which allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2
+
+##https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html
+##https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
+##https://blog.ipswitch.com/how-to-create-an-ec2-instance-with-python
+
+>>first configure aws on system to connect to instance.
+>>default region name: it will be displayed on ec2 dashboard
+>>default output format: json, text, table
+--check it by (aws configure list)
+
+>>import boto3
+>>dir(boto3)
+
+
